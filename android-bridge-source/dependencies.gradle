@@ -1,0 +1,11 @@
+// Add this inside your app-level build.gradle file inside the dependencies block:
+
+dependencies {
+    // Other default dependencies...
+    
+    // OkHttp for WebSocket connection to your Node.js laptop server
+    implementation("com.squareup.okhttp3:okhttp:4.12.0")
+    
+    // Coroutines for asynchronous tasks
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.1")
+}
